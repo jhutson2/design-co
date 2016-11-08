@@ -1,8 +1,57 @@
 html {
   text-size-adjust: 100%;
 }
+h1{text-align: center;
 
+}
 body {
+  background-color: gray;
   margin: 0;
   font: 16px / 1 sans-serif;
+}
+
+nav {
+  background-color: white;
+  border-radius: .7em
+}
+
+.picture-collage2 {
+  display: flex;
+  align-items: center;
+  padding-left: 30%
+}
+
+.picture-collage {
+display: flex;
+align-items: center;
+padding-left: 20%
+}
+ul {
+display: flex;
+margin: 0em 5em;
+list-style: none;
+justify-content: space-between;
+align-items: center;
+border-top: .2em solid #f48;
+border-width: thick;
+border-radius: .2em;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+}
+
+h2 {
+  color: red;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  padding-left: 20%
 }
